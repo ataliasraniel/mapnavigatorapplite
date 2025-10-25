@@ -37,6 +37,8 @@ Para usar o Google Maps, você precisa configurar uma API key:
 4. Crie uma API key
 5. Para android, apenas coloque a api key no .env seguindo o exemplo (nao deu tempo de configurar automático no ios também)
 
+Este app foi feito no flutter 3.35 e dart 3.9.2
+
 ```xml
 <meta-data android:name="com.google.android.geo.API_KEY"
            android:value="SUA_API_KEY_AQUI"/>
@@ -49,7 +51,6 @@ flutter pub get
 ```
 
 ### 3. Permissões
-
 O app solicita automaticamente as seguintes permissões:
 - Localização precisa (GPS)
 - Localização aproximada (Wi-Fi/Rede)
